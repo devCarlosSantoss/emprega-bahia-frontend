@@ -8,16 +8,6 @@ import About from './routes/About.jsx';
 import App from './App.jsx';
 import Cadastro from './routes/Cadastro.jsx';
 
-// const router = createBrowserRouter([{
-//   path: "/",
-//   element: <Home/>
-// },
-// {
-//   path: "about",
-//   element: <About/>
-// }
-// ]);
-
 const router = createBrowserRouter([{
   path: "/",
   element: <App/>,
