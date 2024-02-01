@@ -1,0 +1,55 @@
+@import url("../../App.css");
+
+.header-container {
+    width: 100%;
+    background-color: var(--secondary-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.links-list {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.links-list ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.links-list a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+.links-list a:hover {
+    color: var(--terciary-color);
+}
+
+.nav-account {
+    display: flex;
+    gap: .5rem;
+    margin-right: 3rem;
+}
+
+.nav-account button {
+    padding: 10px 15px;
+    cursor: pointer;
+    border: none;
+    color: black;
+    background-color: var(--text-color);
+    border-radius: 5px;
+    box-sizing: 2px 1px rgba(0, 0, 0, 0.527);
+    font-weight: bolder;
+}
+
+.nav-account button:hover {
+    background-color: var(--terciary-color);
+}
