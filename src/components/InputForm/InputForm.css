@@ -1,0 +1,18 @@
+.inputForm-container{
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+}
+
+.inputForm-container label {
+    text-align: left;
+    font-weight: 600;
+}
+
+.inputForm-container input {
+    padding: 15px 20px;
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border: 1px solid black;
+}
